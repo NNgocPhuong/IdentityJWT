@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "erF/XPfujuGO3Ff6tGW1IBGNNXwZqO+edEL6KnrV3Hw=",
+  "Source": "JWT_withWebAPI",
+  "BasePath": "_content/JWT_withWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
