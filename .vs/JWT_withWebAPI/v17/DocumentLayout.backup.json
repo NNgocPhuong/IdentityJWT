@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\C#Basic\\JWT_withWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|d:\\c#basic\\jwt_withwebapi\\jwt_withwebapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|solutionrelative:jwt_withwebapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|d:\\c#basic\\jwt_withwebapi\\jwt_withwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|solutionrelative:jwt_withwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|d:\\c#basic\\jwt_withwebapi\\jwt_withwebapi\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|solutionrelative:jwt_withwebapi\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|d:\\c#basic\\jwt_withwebapi\\jwt_withwebapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|solutionrelative:jwt_withwebapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|d:\\c#basic\\jwt_withwebapi\\jwt_withwebapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|solutionrelative:jwt_withwebapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|d:\\c#basic\\jwt_withwebapi\\jwt_withwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|solutionrelative:jwt_withwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#Basic\\JWT_withWebAPI\\JWT_withWebAPI\\Migrations\\20250407052043_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JWT_withWebAPI\\Migrations\\20250407052043_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|d:\\c#basic\\jwt_withwebapi\\jwt_withwebapi\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|solutionrelative:jwt_withwebapi\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|d:\\c#basic\\jwt_withwebapi\\jwt_withwebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -45,6 +41,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|d:\\c#basic\\jwt_withwebapi\\jwt_withwebapi\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|solutionrelative:jwt_withwebapi\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|d:\\c#basic\\jwt_withwebapi\\jwt_withwebapi\\migrations\\20250407052043_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03B22564-D65D-43F8-AC8F-08948D215BB8}|JWT_withWebAPI\\JWT_withWebAPI.csproj|solutionrelative:jwt_withwebapi\\migrations\\20250407052043_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -77,6 +77,10 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AuthService.cs",
@@ -84,14 +88,13 @@
               "RelativeDocumentMoniker": "JWT_withWebAPI\\Services\\AuthService.cs",
               "ToolTip": "D:\\C#Basic\\JWT_withWebAPI\\JWT_withWebAPI\\Services\\AuthService.cs",
               "RelativeToolTip": "JWT_withWebAPI\\Services\\AuthService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBYAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwBYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T05:41:05.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T05:41:05.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "D:\\C#Basic\\JWT_withWebAPI\\JWT_withWebAPI\\Services\\IAuthService.cs",
               "RelativeDocumentMoniker": "JWT_withWebAPI\\Services\\IAuthService.cs",
@@ -99,12 +102,11 @@
               "RelativeToolTip": "JWT_withWebAPI\\Services\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T05:40:33.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T05:40:33.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "20250407052043_Initial.cs",
               "DocumentMoniker": "D:\\C#Basic\\JWT_withWebAPI\\JWT_withWebAPI\\Migrations\\20250407052043_Initial.cs",
               "RelativeDocumentMoniker": "JWT_withWebAPI\\Migrations\\20250407052043_Initial.cs",
@@ -112,12 +114,11 @@
               "RelativeToolTip": "JWT_withWebAPI\\Migrations\\20250407052043_Initial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T05:20:44.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T05:20:44.134Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\C#Basic\\JWT_withWebAPI\\JWT_withWebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "JWT_withWebAPI\\appsettings.json",
@@ -129,33 +130,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\C#Basic\\JWT_withWebAPI\\JWT_withWebAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "JWT_withWebAPI\\Controllers\\AuthController.cs",
               "ToolTip": "D:\\C#Basic\\JWT_withWebAPI\\JWT_withWebAPI\\Controllers\\AuthController.cs",
               "RelativeToolTip": "JWT_withWebAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwCkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T06:43:53.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C#Basic\\JWT_withWebAPI\\JWT_withWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "JWT_withWebAPI\\Program.cs",
               "ToolTip": "D:\\C#Basic\\JWT_withWebAPI\\JWT_withWebAPI\\Program.cs",
               "RelativeToolTip": "JWT_withWebAPI\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowBYAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T08:48:11.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "JWT_withWebAPI.csproj",
               "DocumentMoniker": "D:\\C#Basic\\JWT_withWebAPI\\JWT_withWebAPI\\JWT_withWebAPI.csproj",
               "RelativeDocumentMoniker": "JWT_withWebAPI\\JWT_withWebAPI.csproj",
@@ -167,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\C#Basic\\JWT_withWebAPI\\JWT_withWebAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "JWT_withWebAPI\\Properties\\launchSettings.json",
@@ -179,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "UserDbContext.cs",
               "DocumentMoniker": "D:\\C#Basic\\JWT_withWebAPI\\JWT_withWebAPI\\Data\\UserDbContext.cs",
               "RelativeDocumentMoniker": "JWT_withWebAPI\\Data\\UserDbContext.cs",
@@ -191,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\C#Basic\\JWT_withWebAPI\\JWT_withWebAPI\\Entities\\User.cs",
               "RelativeDocumentMoniker": "JWT_withWebAPI\\Entities\\User.cs",
@@ -203,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\C#Basic\\JWT_withWebAPI\\JWT_withWebAPI\\Models\\UserDto.cs",
               "RelativeDocumentMoniker": "JWT_withWebAPI\\Models\\UserDto.cs",

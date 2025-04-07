@@ -163,3 +163,5 @@ D:\C#Basic\JWT_withWebAPI\JWT_withWebAPI\obj\Debug\net9.0\refint\JWT_withWebAPI.
 D:\C#Basic\JWT_withWebAPI\JWT_withWebAPI\obj\Debug\net9.0\JWT_withWebAPI.pdb
 D:\C#Basic\JWT_withWebAPI\JWT_withWebAPI\obj\Debug\net9.0\JWT_withWebAPI.genruntimeconfig.cache
 D:\C#Basic\JWT_withWebAPI\JWT_withWebAPI\obj\Debug\net9.0\ref\JWT_withWebAPI.dll
+D:\C#Basic\JWT_withWebAPI\JWT_withWebAPI\obj\Debug\net9.0\JWT_withWebAPI.sourcelink.json
+D:\C#Basic\JWT_withWebAPI\JWT_withWebAPI\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

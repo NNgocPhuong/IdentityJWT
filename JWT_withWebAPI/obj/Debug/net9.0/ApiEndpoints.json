@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "JWT_withWebAPI.Controllers.AuthController",
+    "Method": "AuthorizationAction",
+    "RelativePath": "api/Auth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_withWebAPI.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/Login",
     "HttpMethod": "POST",

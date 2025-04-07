@@ -1,6 +1,7 @@
 ﻿using JWT_withWebAPI.Entities;
 using JWT_withWebAPI.Models;
 using JWT_withWebAPI.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -38,7 +39,12 @@ namespace JWT_withWebAPI.Controllers
             
             return Ok(token);
         }
-
+        [Authorize]
+        [HttpGet]
+        public IActionResult AuthorizationAction()
+        {
+            return Ok("Action nay duoc bao ve");
+        }
         
     }
 }
