@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace JWT_withWebAPI.Services
@@ -20,23 +21,51 @@ namespace JWT_withWebAPI.Services
             _configuration = configuration;
             _userDbContext = dbContext;
         }
-        public async Task<string?> LoginAsync(UserDto request)
+        public async Task<TokenResponseDto?> LoginAsync(UserDto request)
         {
             var user = await _userDbContext.Users.FirstOrDefaultAsync(u => u.UserName == request.UserName);
             if (user is null)
             {
                 return null;
             }
-            
+
             if (new PasswordHasher<User>().VerifyHashedPassword(user, user.PasswordHash, request.Password)
                 == PasswordVerificationResult.Failed)
             {
                 return null;
             }
-            
-            return CreateToken(user);
+
+            return await CreateTokenResponse(user); 
         }
 
+        private async Task<TokenResponseDto> CreateTokenResponse(User user)
+        {
+            return new TokenResponseDto()
+            {
+                AccessToken = CreateToken(user),
+                RefreshToken = await GenerateAndSaveRefreshTokenAsync(user)
+            };
+        }
+
+        public async Task<TokenResponseDto?> RefreshTokenAsync(RefreshTokenRequestDto request)
+        {
+            var user = await ValidateRefreshTokenAsync(request.UserId, request.RefreshToken);
+            if (user is null)
+            {
+                return null;
+            }
+            return await CreateTokenResponse(user);
+        }
+        private async Task<User?> ValidateRefreshTokenAsync(Guid userId, string refreshToken)
+        {
+            var user = await _userDbContext.Users.FindAsync(userId);
+            if (user is null || user.RefreshToken != refreshToken
+                || user.RefreshTokenExpiryTime <= DateTime.UtcNow)
+            {
+                return null;
+            }
+            return user;
+        }
         public async Task<User?> RegisterAsync(UserDto request)
         {
             if (await _userDbContext.Users.AnyAsync(u => u.UserName == request.UserName)) {
@@ -56,7 +85,8 @@ namespace JWT_withWebAPI.Services
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, user.UserName),
-                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Role, user.Role)
             };
 
             var key = new SymmetricSecurityKey(
@@ -71,5 +101,22 @@ namespace JWT_withWebAPI.Services
                 );
             return new JwtSecurityTokenHandler().WriteToken(tokenDescriptor);
         }
+        private string CreateRefreshToken()
+        {
+            var randomNumber = new byte[32];
+            using var rng = RandomNumberGenerator.Create();
+            rng.GetBytes(randomNumber);
+            return Convert.ToBase64String(randomNumber);
+        }
+        private async Task<string> GenerateAndSaveRefreshTokenAsync(User user)
+        {
+            var refreshToken = CreateRefreshToken();
+            user.RefreshToken = refreshToken;
+            user.RefreshTokenExpiryTime = DateTime.UtcNow.AddDays(7);
+            await _userDbContext.SaveChangesAsync();
+            return refreshToken;
+        }
+
+        
     }
 }

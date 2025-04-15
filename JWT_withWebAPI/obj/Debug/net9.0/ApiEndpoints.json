@@ -11,6 +11,16 @@
   },
   {
     "ContainingType": "JWT_withWebAPI.Controllers.AuthController",
+    "Method": "AdminOnlyAction",
+    "RelativePath": "api/Auth/admin-only",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_withWebAPI.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/Login",
     "HttpMethod": "POST",
@@ -25,7 +35,33 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "JWT_withWebAPI.Models.TokenResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JWT_withWebAPI.Controllers.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Auth/Refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "JWT_withWebAPI.Models.RefreshTokenRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JWT_withWebAPI.Models.TokenResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
